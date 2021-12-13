@@ -70,7 +70,8 @@ class DisplayThread(QThread):
 
         if self.fer_detect:
             # self.ferDetModel = createFERmodel(self.fer_modelname, weights_dir="./weights/ori_vgg16.pth", cuda=self.cuda_available)
-            self.ferDetModel = createFERmodel(self.fer_modelname, weights_dir="./weights/vgg16_109lab.pth", cuda=self.cuda_available)
+            # self.ferDetModel = createFERmodel(self.fer_modelname, weights_dir="./weights/vgg16_109lab.pth", cuda=self.cuda_available)
+            self.ferDetModel = createFERmodel(self.fer_modelname, weights_dir="./weights/ui_weights.pth", cuda=self.cuda_available)
 
     def set_2d_methods(self, haar_filename, fer_2d_method):
         self.haar_file = os.path.join(cv2.data.haarcascades, haar_filename)  # haar file for face detection
