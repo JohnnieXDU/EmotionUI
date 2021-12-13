@@ -38,6 +38,7 @@
 ## hardware
  1) usb camera
  2) Intel RealSense (optional for depth imaging)
+ 3) NV GPU (optional, CPU version also works)
 
 ## notice
  The current FER algorithm is vgg16 for simplicity. One can easily change the network as you wish.
