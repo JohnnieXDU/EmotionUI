@@ -24,8 +24,10 @@
     https://drive.google.com/file/d/1f-tKgovJ54l9xR3oIZ6gy77NdPirUddr/view?usp=sharing
     
     Then, move the weights to "./weights" folder.
-    
+ 
+ 
  or 
+ 
  2) Run script.
     Open terminal, run:
     > cd weights
