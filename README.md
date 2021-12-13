@@ -30,8 +30,10 @@
  
  2) Run script.
     Open terminal, run:
+    ```python
     > cd weights
     > python download_weights.py
+    ```
 
 ## hardware
  1) usb camera
