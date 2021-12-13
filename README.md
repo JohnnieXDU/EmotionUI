@@ -1,8 +1,11 @@
 # EmotionUI
  Software for Facial Expression Recognition UI
 
-## demo
+## demo screenshot
+![demo-ui](https://github.com/JohnnieXDU/EmotionUI/blob/main/resource/demo-ui.png)
 
+![demo-happy](https://github.com/JohnnieXDU/EmotionUI/blob/main/resource/demo-happy.png)
+(with RealSense)
 
 # Installation
 
