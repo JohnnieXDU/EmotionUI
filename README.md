@@ -2,7 +2,7 @@
  Software for Facial Expression Recognition UI
 
 ## demo
-
+![demo-ui](https://github.com/JohnnieXDU/EmotionUI/blob/main/resource/demo-ui.png)
 
 # Installation
 
