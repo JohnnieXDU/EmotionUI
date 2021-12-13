@@ -20,6 +20,7 @@
  Two ways, try them, depending on your Internet speed.
  1) Manually download.
     Download vgg16 weights from: 
+    
     https://drive.google.com/file/d/1f-tKgovJ54l9xR3oIZ6gy77NdPirUddr/view?usp=sharing
     
     Then, move the weights to "./weights" folder.
