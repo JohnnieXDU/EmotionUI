@@ -449,13 +449,23 @@ class MainWindow(QMainWindow):
     @Slot()
     def showRequireSlot(self):
         QMessageBox.about(self,
-                          "Developing Env",
-                          "The software is developed based on Python.\n\nRequirements:\n\n- Python 3.6 \n- Opencv-python 4.5 \n- PySide6 6.2.1 \n- PyTorch 1.10 \n- TorchVision 0.11\n\n"
+                          "Developing Environment",
+                          "Packages:\n"
+                          "- Python >= 3.6\n"
+                          "- numpy >= 1.19.5\n"
+                          "- Opencv-python >= 4.5\n"
+                          "- PySide6 >= 6.2.1\n"
+                          "- PyTorch >= 1.10\n"
+                          "- TorchVision >= 0.11\n\n"
+                          "Hardware:\n"
+                          "1) usb camera\n"
+                          "2) Intel RealSense (optional for depth imaging)\n"
+                          "3) NV GPU (optional, CPU version also works)\n"
                           )
 
     @Slot()
     def showAboutSlot(self):
-        dev_info = "This software is developed as a byproduct of Yang's PhD thesis (2021). \n\nDeveloper: Yang Jiao \nEmail: yjiao.xdu@gmail.com \nXidian University \nJohns Hopkins University"
+        dev_info = "Software for Multimodality 2D+3D Facial Expression Recognition (FER). \n\nDeveloper: Yang Jiao \nEmail: yjiao.xdu@gmail.com \nXidian University \nJohns Hopkins University"
         ack_info = "Free to anyone. No commercial purpose."
         license_info = "GPL License."
         QMessageBox.about(self,
