@@ -450,7 +450,7 @@ class MainWindow(QMainWindow):
     def showRequireSlot(self):
         QMessageBox.about(self,
                           "Developing Env",
-                          "The software is developed based on Python.\n\nRequirements:\n\n- Python 3.6 \n- Opencv-python 4.5 \n- PySide6 6.2.1 \n- PyTorch 0.3.1 cuda80\n- TorchVision 0.1.9\n\n"
+                          "The software is developed based on Python.\n\nRequirements:\n\n- Python 3.6 \n- Opencv-python 4.5 \n- PySide6 6.2.1 \n- PyTorch 1.10 \n- TorchVision 0.11\n\n"
                           )
 
     @Slot()
