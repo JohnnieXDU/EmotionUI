@@ -16,6 +16,11 @@
  - PyTorch >= 1.10
  - TorchVision >= 0.11
 
+## hardware
+ 1) usb camera
+ 2) Intel RealSense (optional for depth imaging)
+ 3) NV GPU (optional, CPU version also works)
+
 ## loding weights
  Two ways, try them, depending on your Internet speed.
  1) Manually download.
@@ -35,10 +40,14 @@
     > python download_weights.py
     ```
 
-## hardware
- 1) usb camera
- 2) Intel RealSense (optional for depth imaging)
- 3) NV GPU (optional, CPU version also works)
-
+## train your own model
+ ```python
+ > cd train/dataset
+ > python main_train.py
+ ```
+ 
+ Remember to move the new weights to "weights" folder, and rename it with "ui_weights.pth".
+ 
 ## notice
- The current FER algorithm is vgg16 for simplicity. One can easily change the network as you wish.
+ The current FER network is vgg16 for simplicity. Current prediction is based on 2D result.
+ One can easily change the network as you wish.
