@@ -45,6 +45,9 @@
  > cd train/dataset
  > python main_train.py
  ```
-
+ 
+ Remember to move the new weights to "weights" folder, and rename it with "ui_weights.pth".
+ 
 ## notice
- The current FER algorithm is vgg16 for simplicity. One can easily change the network as you wish.
+ The current FER network is vgg16 for simplicity. Current prediction is based on 2D result.
+ One can easily change the network as you wish.
