@@ -50,6 +50,6 @@
  
  After the training, remember to move the new weights to "weights" folder, and rename it with the "ui_weights.pth".
  
-## notice
+## P.S.
  The current FER network is vgg16 for simplicity. Current prediction is based on 2D result.
  One can easily change the network as you wish.
