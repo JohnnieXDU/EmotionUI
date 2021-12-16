@@ -46,7 +46,8 @@
  > python main_train.py
  ```
  
- Remember to move the new weights to "weights" folder, and rename it with "ui_weights.pth".
+ This will also allow you to collect your own expression dataset before the network training.
+ After the training, remember to move the new weights to "weights" folder, and rename it with the "ui_weights.pth".
  
 ## notice
  The current FER network is vgg16 for simplicity. Current prediction is based on 2D result.
