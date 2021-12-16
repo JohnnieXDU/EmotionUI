@@ -47,6 +47,7 @@
  ```
  
  This will also allow you to collect your own expression dataset before the network training.
+ 
  After the training, remember to move the new weights to "weights" folder, and rename it with the "ui_weights.pth".
  
 ## notice
